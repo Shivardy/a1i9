@@ -1,0 +1,68 @@
+<html>
+<head>	 
+
+   <link rel="icon" href="../suramshivareddy.com/photo.png" type="image/gif">
+    <meta name="author" content="Suram ShivaReddy" />
+    <meta name="keywords"  content="ShivaReddy, Suram ShivaReddy, Suram Shiva, Shiva R'dy" />
+<meta name="description" content="I'm Suram ShivaReddy a Webdeveloper from India (Hyderabad). If you are looking for a
+good looking Responsive website, I can help you with it">
+
+  <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<link rel="stylesheet" href="A1I9.css">
+<title>(A-1 I-9)Match Alphabets and Numbers !</title>
+</head>
+<body id="main" onload="myFunction()">
+<div class="container" style="margin-top:30px">
+<div>
+<p id="score" class="style pulling" >0<p><p class="style pulling">score=<p>
+<p class="style">Match Alphabets and Numbers !</p></div>
+<div  align="center"><h1 id="header">1</h1></div>
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" style="display:none"id="asdf" data-backdrop="static" data-keyboard="false" data-target="#myModal">Open Large Modal</button>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-md">
+      <div id="disp" class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" style="text-align:center">Game Over !!</h2>
+        </div>
+        <div class="modal-body">
+          <p id="timeup" style="text-align:center">Incorrect selection..</p>
+		  <p id="scoreboard" style="text-align:center"> </p>
+		    <p id="bestscore" style="text-align:center"></p>
+		 <p id="sessionbest" style="text-align:center"></p>
+        </div>
+        <div   class="modal-footer">
+          <div class="align"><button  type="button" onClick="window.location.reload()" class="btn btn-primary btn-lg center-block" data-dismiss="modal">Retry :) </button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+	 <div align="center" "class="table-responsive">
+	<table id="board" class="table1">
+	<tr>
+	<td > <button class="button" id="a1" onclick="f1(this),f4(),f5()">A</button></td>
+	<td > <button class="button" id="a2" onclick="f1(this),f4(),f5()">B</button></td>
+	<td > <button class="button" id="a3" onclick="f1(this),f4(),f5()">C</button></td>
+	</tr>
+	<tr>
+	<td > <button class="button" id="a4" onclick="f1(this),f4(),f5()">D</button></td>
+	<td > <button class="button" id="a5" onclick="f1(this),f4(),f5()">E</button></td>
+	<td > <button class="button" id="a6" onclick="f1(this),f4(),f5()">F</button></td>
+	</tr>
+	<tr>
+	<td > <button class="button" id="a7" onclick="f1(this),f4(),f5()">G</button></td>
+	<td > <button class="button" id="a8" onclick="f1(this),f4(),f5()">H</button></td>
+	<td > <button class="button" id="a9" onclick="f1(this),f4(),f5()">I</button></td>
+	</tr>
+	</table>
+	</div>  
+
+ </div>
+
+  <script src="jquery.js"></script>
+  <script src="game.js"></script>
+  
+</body>
+</html>
